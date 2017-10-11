@@ -29,7 +29,7 @@ define('DB_PASS', 'joshua04');
 //define('DB_NAME', 'sherwint_sms102');
 //define('DB_NAME', 'sherwint_shinagawa');
 //define('DB_NAME', 'sherwint_tntattendance');
-define('DB_NAME', 'sherwint_tntmobile');
+define('DB_NAME', 'sherwint_gatekeeper');
 define('DB_IP','127.0.0.1');
 define('DB_PORT','5432');
 define('DB_HOST', DB_IP.':'.DB_PORT);

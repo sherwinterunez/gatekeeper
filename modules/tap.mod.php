@@ -277,7 +277,7 @@ if(!class_exists('APP_Tap')) {
 
 			if(!empty(($license=checkLicense()))) {
 			} else {
-				$bulletin = 'THIS IS AN UNLICENSED COPY OF TAP N TXT. FOR DEMO ONLY. THIS IS AN UNLICENSED COPY OF TAP N TXT. FOR DEMO ONLY. THIS IS AN UNLICENSED COPY OF TAP N TXT. FOR DEMO ONLY. THIS IS AN UNLICENSED COPY OF TAP N TXT. FOR DEMO ONLY.';
+				$bulletin = 'THIS IS AN UNLICENSED COPY OF GATEKEEPER. FOR DEMO ONLY. THIS IS AN UNLICENSED COPY OF GATEKEEPER. FOR DEMO ONLY. THIS IS AN UNLICENSED COPY OF GATEKEEPER. FOR DEMO ONLY. THIS IS AN UNLICENSED COPY OF GATEKEEPER. FOR DEMO ONLY.';
 			}
 
 			$retval['bulletin'] = trim($bulletin);
@@ -312,7 +312,7 @@ if(!class_exists('APP_Tap')) {
 			if(!empty($license['sc'])) {
 				$retval['license'] = $license['sc'];
 			} else {
-				$retval['license'] = 'TAP N TXT DEMO UNIT (UNLICENSED)';
+				$retval['license'] = 'GATEKEEPER DEMO UNIT (UNLICENSED)';
 				//$retval['license'] = 'THE QUICK BROWN FOX';
 			}
 

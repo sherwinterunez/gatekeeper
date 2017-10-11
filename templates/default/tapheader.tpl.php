@@ -79,7 +79,7 @@ $settings_hidedb = getOption('$SETTINGS_HIDEDB',false);
 		margin: 0 auto;
 		/*background: #14ade3;*/
 		/*background: #3F51B5;*/
-		background: #0D47A1;
+		background: #880E4F; /*#0D47A1;*/
 	}
 
 	#contentbottom {
@@ -92,7 +92,7 @@ $settings_hidedb = getOption('$SETTINGS_HIDEDB',false);
 		margin: 0;
 		padding: 0;
 		/*background: #14ade3;*/
-		background: #0D47A1;
+		background: #AD1457; /*#0D47A1;*/
 		opacity: 0.99;
 	}
 
@@ -297,7 +297,7 @@ $settings_hidedb = getOption('$SETTINGS_HIDEDB',false);
 
 	#licenselogo {
 		display: block;
-		width: 100px;
+		width: 10px;
 		height: 100px;
 		color: #fff;
 		opacity: 0.80;
@@ -454,8 +454,8 @@ $settings_hidedb = getOption('$SETTINGS_HIDEDB',false);
 <div id="advertisement">this is an advertisement</div>
 <div id="contenttop">
 	<div id="contenttopleft">
-		<div id="licenselogo"><img src="/templates/default/tap/license.png" /></div>
-		<div id="schoolname"><?php echo !empty($license['sc']) ? $license['sc'] : 'TAP N TXT DEMO UNIT (UNLICENSED)'; ?></div>
+		<div id="licenselogo">&nbsp;<?php /*<img src="/templates/default/tap/license.png" />*/ ?></div>
+		<div id="schoolname"><?php echo !empty($license['sc']) ? $license['sc'] : 'GATEKEEPER DEMO UNIT (UNLICENSED)'; ?></div>
 	</div>
 	<div id="contenttopright">
 		<div id="currentdatetime"></div>
@@ -482,9 +482,9 @@ $settings_hidedb = getOption('$SETTINGS_HIDEDB',false);
 	<div id="contentmid">
 		<div id="studentcontent">
 			<div id="studentcontentdiv">
-				<div id="studentname">TAP N' TXT</div>
-				<div id="studentyearsection">Student Attendance System</div>
-				<div id="studentremarks">by OBIS Software Technology Inc.</div>
+				<div id="studentname">GATEKEEPER</div>
+				<div id="studentyearsection">Car Pass System</div>
+				<div id="studentremarks">by SendSolutions</div>
 				<br class="br" />
 			</div>
 		</div>
